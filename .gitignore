@@ -1,0 +1,96 @@
+# -----------------------------
+# Django / Python
+# -----------------------------
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env/
+venv_d_p2/
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+!*/migrations/__init__.py
+
+# Django static / media
+staticfiles/
+media/
+
+# Pytest cache
+.pytest_cache/
+
+# mypy / linting / coverage
+.mypy_cache/
+.coverage
+htmlcov/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# Flutter / Dart
+# -----------------------------
+
+# Flutter/Dart build outputs
+build/
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+
+# iOS / Xcode
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+*.lock
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/xcuserdata
+
+# Android / Gradle
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/captures/
+*.keystore
+
+# Generated files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# -----------------------------
+# General
+# -----------------------------
+*.iml
+*.class
+*.jar
+*.war
+*.ear
+*.db
+
+# Ignore all PDFs
+*.pdf
+
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
